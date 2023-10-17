@@ -41,7 +41,7 @@ const polylineMachine = createMachine(
                         target: "drawing",
                         internal: true,
                         cond: "pasPlein",
-                        actions:["addPoint"]
+                        actions:["addPoint", "saveLine"]
                     }, "idle"],
 
                     Enter: [{
